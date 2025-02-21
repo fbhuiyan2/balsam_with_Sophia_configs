@@ -9,6 +9,7 @@ from .summit import SummitJsrun
 from .theta import ThetaAprun
 from .theta_gpu import ThetaGPURun
 from .sophia import SophiaRun
+from .crux import CruxRun
 
 __all__ = [
     "AppRun",
@@ -23,4 +24,5 @@ __all__ = [
     "AuroraRun",
     "PerlmutterRun",
     "SophiaRun",
+    "CruxRun",
 ]
